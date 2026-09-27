@@ -6,6 +6,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: 'export',
+  basePath: '/neo-brutalist-desktop-os',
   images: {
     unoptimized: true,
   },
